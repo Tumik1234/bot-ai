@@ -179,7 +179,7 @@ async def on_message(message):
     history = message_history[key]
 
     async with message.channel.typing():
-      response = await asyncio.to_thread(generate_response,
+      response = await asyncio.run_in_executor(generate_response,
                                          instructions=instructions,
                                          search=search_results,
                                          history=history)
