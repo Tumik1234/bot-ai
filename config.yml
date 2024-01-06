@@ -8,7 +8,7 @@ GPT_MODEL: gpt-3.5-turbo # Model used for chat completion
 
 MAX_HISTORY: 8 # Set the maximum message history
 
-PRESENCES_CHANGE_DELAY: 8 # Please note that the Presences Change Delay is measured in seconds. It is advisable not to set it too low, as doing so may result in your bot being rate-limited by Discord
+PRESENCES_CHANGE_DELAY: 5 # Please note that the Presences Change Delay is measured in seconds. It is advisable not to set it too low, as doing so may result in your bot being rate-limited by Discord
 AI_NSFW_CONTENT_FILTER: true # Enable NSFW AI detector to detect NSFW prompt on Imagine Command
 
 LANGUAGE: pl # Specify the language code (check 'lang' folder for valid codes)
@@ -26,13 +26,17 @@ TRIGGER:
 
 DISABLE_PRESENCE: false 
 PRESENCES:
-  - Jak mogę ci pomóc?
-  - Chcesz się zabawić?, Zapraszam!
-  - Potrzebujesz czegoś?, bez problemu!
-  - Jestem Inteligętną maszyną czy osoba?
-  - A może idalnym narzędziem pomocy?!
-  - Sprawdź i się przekonaj!!
-  - Dołącz tutaj https://discord.gg/oyoom
+- Zobacz nasze sociale!
+- twitch.tv/julkins125
+- twitch.tv/xhehyx
+- twitch.tv/koooz125
+- tiktok.com/@payoo.oyoom
+- tiktok.com/@darkinzone
+- tiktok.com/@oyooom
+- tiktok.com/@oyoom.games
+- kick.com/bonusiasty
+- kick.com/oyooom
+- Dołącz tutaj https://discord.gg/oyoom
 # List of different presences to be used
 
 OCR_MODEL_URLS:
